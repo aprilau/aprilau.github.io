@@ -1,0 +1,80 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-image: url("clouds.jpg");
+	background-position: center;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+	display: table;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+	color:#fff;
+}
+
+ol {
+	list-style: none;
+}
+
+ol li {
+	display: inline-block;
+}
+
+ol li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 20px;
+	font-weight: lighter;
+	padding: 20px;
+}
+
+.kamila {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.kamila h1 {
+	color:#fff;
+	font-weight: 360px;
+	font-size: 54px;
+	margin-bottom: 8px;
+}
+
+.kamila p {
+	color:#fff;
+	font-weight: 250px;
+	font-size: 22px;
+}
+
+.kamila button {
+	color:#fff;
+	background:#009f8b;
+	padding:12px 32px;
+	border:none;
+	font-size: 18px;
+	margin-top: 40px;
+
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.center {
+	border-radius: 80%;
+    opacity: 0.5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
